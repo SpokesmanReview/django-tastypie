@@ -15,5 +15,7 @@ if 'django.contrib.auth' in settings.INSTALLED_APPS:
         raise TypeError("'TASTYPIE_ABSTRACT_APIKEY' must be either 'True' "
                         "or 'False'.")
             
-    if not ABSTRACT_APIKEY:
-        admin.site.register(ApiKey)
+# PITA
+#    if not ABSTRACT_APIKEY:
+#        admin.site.register(ApiKey)
+
